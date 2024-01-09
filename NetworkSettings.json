@@ -1,0 +1,107 @@
+[
+    {
+        "Name": "Data Receive Rate Limit",
+        "Prefix": "",
+        "Command": "rate",
+        "Value": "1000000",
+        "Description": "Sets data receive rate limit."
+    },
+    {
+        "Name": "Weapon Prediction",
+        "Prefix": "",
+        "Command": "cl_predictweapons",
+        "Value": "1",
+        "Description": "Enables weapon prediction."
+    },
+    {
+        "Name": "Lag Compensation",
+        "Prefix": "",
+        "Command": "cl_lagcompensation",
+        "Value": "1",
+        "Description": "Allows lag compensation."
+    },
+    {
+        "Name": "Steam Datagram Relay",
+        "Prefix": "",
+        "Command": "net_client_steamdatagram_enable_override",
+        "Value": "1",
+        "Description": "Toggles Steam Datagram Relay."
+    },
+    {
+        "Name": "Maximum Packet Size",
+        "Prefix": "",
+        "Command": "net_maxroutable",
+        "Value": "1200",
+        "Description": "Sets maximum packet size."
+    },
+    {
+        "Name": "Matchmaking QoS Timeout",
+        "Prefix": "",
+        "Command": "mm_session_search_qos_timeout",
+        "Value": "20",
+        "Description": "Affects matchmaking QoS timeout."
+    },
+    {
+        "Name": "Matchmaking Server Max Ping",
+        "Prefix": "",
+        "Command": "mm_dedicated_search_maxping",
+        "Value": "25",
+        "Description": "Limits matchmaking server ping."
+    },
+    {
+        "Name": "Minimum Players for Community Search",
+        "Prefix": "",
+        "Command": "mm_csgo_community_search_players_min",
+        "Value": "3",
+        "Description": "Sets minimum players for community search."
+    },
+    {
+        "Name": "Packet Resend Rate",
+        "Prefix": "",
+        "Command": "cl_resend",
+        "Value": "0.5",
+        "Description": "Controls packet resend rate."
+    },
+    {
+        "Name": "Server Response Timeout",
+        "Prefix": "",
+        "Command": "cl_timeout",
+        "Value": "30",
+        "Description": "Sets server response timeout."
+    },
+    {
+        "Name": "Lobby Privacy Settings",
+        "Prefix": "",
+        "Command": "lobby_default_privacy_bits2",
+        "Value": "0",
+        "Description": "Manages lobby privacy settings."
+    },
+    {
+        "Name": "In-Game Hire Advertisement Auto-Settings",
+        "Prefix": "",
+        "Command": "ui_setting_advertiseforhire_auto",
+        "Value": "1",
+        "Description": "Auto-settings for in-game hire advertisement."
+    },
+    {
+        "Name": "Game Join Advertising",
+        "Prefix": "",
+        "Command": "cl_join_advertise",
+        "Value": "2",
+        "Description": "Controls game join advertising."
+    },
+    {
+        "Name": "Invites Restriction to Friends",
+        "Prefix": "",
+        "Command": "cl_invites_only_friends",
+        "Value": "0",
+        "Description": "Restricts invites to friends."
+    },
+    {
+        "Name": "Invites Management in Main Menu",
+        "Prefix": "",
+        "Command": "cl_invites_only_mainmenu",
+        "Value": "0",
+        "Description": "Manages invites in main menu."
+    }
+]
