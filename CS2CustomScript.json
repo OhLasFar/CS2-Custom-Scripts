@@ -368,5 +368,399 @@
       "CurrentValue": true,
       "CommandName": "crosshair"
     }
+  },
+  "BindSettings": {
+    "show_loadout_toggle": {
+      "Prefix": "bind",
+      "Description": "Toggle Inventory Display",
+      "Name": "Show Loadout Toggle",
+      "DefaultValue": "i",
+      "CurrentValue": "i",
+      "CommandName": "show_loadout_toggle"
+    },
+    "forward": {
+      "Prefix": "bind",
+      "Description": "Move Forward",
+      "Name": "Forward",
+      "DefaultValue": "w",
+      "CurrentValue": "w",
+      "CommandName": "forward"
+    },
+    "back": {
+      "Prefix": "bind",
+      "Description": "Move Backward",
+      "Name": "Back",
+      "DefaultValue": "s",
+      "CurrentValue": "s",
+      "CommandName": "back"
+    },
+    "left": {
+      "Prefix": "bind",
+      "Description": "Move Left",
+      "Name": "Left",
+      "DefaultValue": "a",
+      "CurrentValue": "a",
+      "CommandName": "left"
+    },
+    "right": {
+      "Prefix": "bind",
+      "Description": "Move Right",
+      "Name": "Right",
+      "DefaultValue": "d",
+      "CurrentValue": "d",
+      "CommandName": "right"
+    },
+    "sprint": {
+      "Prefix": "bind",
+      "Description": "Walk",
+      "Name": "Sprint",
+      "DefaultValue": "shift",
+      "CurrentValue": "shift",
+      "CommandName": "sprint"
+    },
+    "duck": {
+      "Prefix": "bind",
+      "Description": "Duck",
+      "Name": "Duck",
+      "DefaultValue": "ctrl",
+      "CurrentValue": "ctrl",
+      "CommandName": "duck"
+    },
+    "jump": {
+      "Prefix": "bind",
+      "Description": "Jump",
+      "Name": "Jump",
+      "DefaultValue": "space",
+      "CurrentValue": "space",
+      "CommandName": "jump"
+    },
+    "use": {
+      "Prefix": "bind",
+      "Description": "Use",
+      "Name": "Use",
+      "DefaultValue": "e",
+      "CurrentValue": "e",
+      "CommandName": "use"
+    },
+    "attack": {
+      "Prefix": "bind",
+      "Description": "Fire",
+      "Name": "Attack",
+      "DefaultValue": "mouse1",
+      "CurrentValue": "mouse1",
+      "CommandName": "attack"
+    },
+    "attack2": {
+      "Prefix": "bind",
+      "Description": "Secondary Fire",
+      "Name": "Attack2",
+      "DefaultValue": "mouse2",
+      "CurrentValue": "mouse2",
+      "CommandName": "attack2"
+    },
+    "reload": {
+      "Prefix": "bind",
+      "Description": "Reload",
+      "Name": "Reload",
+      "DefaultValue": "r",
+      "CurrentValue": "r",
+      "CommandName": "reload"
+    },
+    "quickinv": {
+      "Prefix": "bind",
+      "Description": "Radial Weapon Menu",
+      "Name": "Quick Inventory",
+      "DefaultValue": "<unbound>",
+      "CurrentValue": "<unbound>",
+      "CommandName": "quickinv"
+    },
+    "drop": {
+      "Prefix": "bind",
+      "Description": "Drop Weapon",
+      "Name": "Drop",
+      "DefaultValue": "g",
+      "CurrentValue": "g",
+      "CommandName": "drop"
+    },
+    "lookatweapon": {
+      "Prefix": "bind",
+      "Description": "Inspect Weapon",
+      "Name": "Look at Weapon",
+      "DefaultValue": "f",
+      "CurrentValue": "f",
+      "CommandName": "lookatweapon"
+    },
+    "buymenu": {
+      "Prefix": "bind",
+      "Description": "BuyMenu",
+      "Name": "Buy Menu",
+      "DefaultValue": "b",
+      "CurrentValue": "b",
+      "CommandName": "buymenu"
+    },
+    "autobuy": {
+      "Prefix": "bind",
+      "Description": "Autobuy",
+      "Name": "Autobuy",
+      "DefaultValue": "f3",
+      "CurrentValue": "f3",
+      "CommandName": "autobuy"
+    },
+    "rebuy": {
+      "Prefix": "bind",
+      "Description": "Rebuy",
+      "Name": "Rebuy",
+      "DefaultValue": "f4",
+      "CurrentValue": "f4",
+      "CommandName": "rebuy"
+    },
+    "slot1": {
+      "Prefix": "bind",
+      "Description": "Primary Weapon",
+      "Name": "Primary Weapon",
+      "DefaultValue": "2",
+      "CurrentValue": "2",
+      "CommandName": "slot1"
+    },
+    "slot2": {
+      "Prefix": "bind",
+      "Description": "Secondary Weapon",
+      "Name": "Secondary Weapon",
+      "DefaultValue": "3",
+      "CurrentValue": "3",
+      "CommandName": "slot2"
+    },
+    "slot3": {
+      "Prefix": "bind",
+      "Description": "Melee Weapon",
+      "Name": "Melee Weapon",
+      "DefaultValue": "1",
+      "CurrentValue": "1",
+      "CommandName": "slot3"
+    },
+    "slot4": {
+      "Prefix": "bind",
+      "Description": "Cycle Grenades",
+      "Name": "Cycle Grenades",
+      "DefaultValue": "4",
+      "CurrentValue": "4",
+      "CommandName": "slot4"
+    },
+    "slot5": {
+      "Prefix": "bind",
+      "Description": "Explosives & Traps",
+      "Name": "Explosives & Traps",
+      "DefaultValue": "5",
+      "CurrentValue": "5",
+      "CommandName": "slot5"
+    },
+    "slot6": {
+      "Prefix": "bind",
+      "Description": "HE Grenade",
+      "Name": "HE Grenade",
+      "DefaultValue": "6",
+      "CurrentValue": "6",
+      "CommandName": "slot6"
+    },
+    "slot7": {
+      "Prefix": "bind",
+      "Description": "Flashbang",
+      "Name": "Flashbang",
+      "DefaultValue": "7",
+      "CurrentValue": "7",
+      "CommandName": "slot7"
+    },
+    "slot8": {
+      "Prefix": "bind",
+      "Description": "Smoke Grenade",
+      "Name": "Smoke Grenade",
+      "DefaultValue": "8",
+      "CurrentValue": "8",
+      "CommandName": "slot8"
+    },
+    "slot9": {
+      "Prefix": "bind",
+      "Description": "Decoy Grenade",
+      "Name": "Decoy Grenade",
+      "DefaultValue": "9",
+      "CurrentValue": "9",
+      "CommandName": "slot9"
+    },
+    "slot10": {
+      "Prefix": "bind",
+      "Description": "Molotov Cocktail",
+      "Name": "Molotov Cocktail",
+      "DefaultValue": "0",
+      "CurrentValue": "0",
+      "CommandName": "slot10"
+    },
+    "slot11": {
+      "Prefix": "bind",
+      "Description": "Zeusx27",
+      "Name": "Zeusx27",
+      "DefaultValue": "<unbound>",
+      "CurrentValue": "<unbound>",
+      "CommandName": "slot11"
+    },
+    "slot12": {
+      "Prefix": "bind",
+      "Description": "Healthshot",
+      "Name": "Healthshot",
+      "DefaultValue": "x",
+      "CurrentValue": "x",
+      "CommandName": "slot12"
+    },
+    "slot13": {
+      "Prefix": "bind",
+      "Description": "Utility Items",
+      "Name": "Utility Items",
+      "DefaultValue": "<unbound>",
+      "CurrentValue": "<unbound>",
+      "CommandName": "slot13"
+    },
+    "spray_menu": {
+      "Prefix": "bind",
+      "Description": "Graffiti Menu",
+      "Name": "Spray Menu",
+      "DefaultValue": "<unbound>",
+      "CurrentValue": "<unbound>",
+      "CommandName": "spray_menu"
+    },
+    "showscores": {
+      "Prefix": "bind",
+      "Description": "Scoreboard",
+      "Name": "Show Scores",
+      "DefaultValue": "tab",
+      "CurrentValue": "tab",
+      "CommandName": "showscores"
+    },
+    "team_equipment": {
+      "Prefix": "bind",
+      "Description": "Show Team Equipment",
+      "Name": "Show Team Equipment",
+      "DefaultValue": "<unbound>",
+      "CurrentValue": "<unbound>",
+      "CommandName": "team_equipment"
+    },
+    "callvote": {
+      "Prefix": "bind",
+      "Description": "Call Vote",
+      "Name": "Call Vote",
+      "DefaultValue": "<unbound>",
+      "CurrentValue": "<unbound>",
+      "CommandName": "callvote"
+    },
+    "teammenu": {
+      "Prefix": "bind",
+      "Description": "Choose Team",
+      "Name": "Choose Team",
+      "DefaultValue": "m",
+      "CurrentValue": "m",
+      "CommandName": "teammenu"
+    },
+    "toggleconsole": {
+      "Prefix": "bind",
+      "Description": "Toggle Console",
+      "Name": "Toggle Console",
+      "DefaultValue": "up",
+      "CurrentValue": "up",
+      "CommandName": "toggleconsole"
+    },
+    "player_ping": {
+      "Prefix": "bind",
+      "Description": "Player Ping",
+      "Name": "Player Ping",
+      "DefaultValue": "mouse4",
+      "CurrentValue": "mouse4",
+      "CommandName": "player_ping"
+    },
+    "radio": {
+      "Prefix": "bind",
+      "Description": "Radio Message",
+      "Name": "Radio Message",
+      "DefaultValue": "z",
+      "CurrentValue": "z",
+      "CommandName": "radio"
+    },
+    "radio1": {
+      "Prefix": "bind",
+      "Description": "Command Radio Message",
+      "Name": "Command Radio Message",
+      "DefaultValue": "<unbound>",
+      "CurrentValue": "<unbound>",
+      "CommandName": "radio1"
+    },
+    "radio2": {
+      "Prefix": "bind",
+      "Description": "Standard Radio Message",
+      "Name": "Standard Radio Message",
+      "DefaultValue": "<unbound>",
+      "CurrentValue": "<unbound>",
+      "CommandName": "radio2"
+    },
+    "radio3": {
+      "Prefix": "bind",
+      "Description": "Report Radio Message",
+      "Name": "Report Radio Message",
+      "DefaultValue": "<unbound>",
+      "CurrentValue": "<unbound>",
+      "CommandName": "radio3"
+    },
+    "messagemode2": {
+      "Prefix": "bind",
+      "Description": "Team Message",
+      "Name": "Team Message",
+      "DefaultValue": "u",
+      "CurrentValue": "u",
+      "CommandName": "messagemode2"
+    },
+    "messagemode": {
+      "Prefix": "bind",
+      "Description": "Chat Message",
+      "Name": "Chat Message",
+      "DefaultValue": "y",
+      "CurrentValue": "y",
+      "CommandName": "messagemode"
+    },
+    "voicerecord": {
+      "Prefix": "bind",
+      "Description": "Use Mic",
+      "Name": "Use Mic",
+      "DefaultValue": "t",
+      "CurrentValue": "t",
+      "CommandName": "voicerecord"
+    },
+    "clutch_mode_toggle": {
+      "Prefix": "bind",
+      "Description": "Temporarily Disable Incoming Chat",
+      "Name": "Clutch Mode Toggle",
+      "DefaultValue": "<unbound>",
+      "CurrentValue": "<unbound>",
+      "CommandName": "clutch_mode_toggle"
+    },
+    "radialradio": {
+      "Prefix": "bind",
+      "Description": "Chat Wheel 1",
+      "Name": "Chat Wheel 1",
+      "DefaultValue": "c",
+      "CurrentValue": "c",
+      "CommandName": "radialradio"
+    },
+    "radialradio2": {
+      "Prefix": "bind",
+      "Description": "Chat Wheel 2",
+      "Name": "Chat Wheel 2",
+      "DefaultValue": "v",
+      "CurrentValue": "v",
+      "CommandName": "radialradio2"
+    },
+    "radialradio3": {
+      "Prefix": "bind",
+      "Description": "Chat Wheel 3",
+      "Name": "Chat Wheel 3",
+      "DefaultValue": "<unbound>",
+      "CurrentValue": "<unbound>",
+      "CommandName": "radialradio3"
+    }
   }
 }
