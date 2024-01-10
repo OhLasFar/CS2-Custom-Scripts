@@ -1,0 +1,372 @@
+{
+  "NetworkSettings": {
+    "rate": {
+      "Description": "Sets data receive rate limit.",
+      "Name": "Rate",
+      "DefaultValue": 1000000,
+      "CurrentValue": 1000000,
+      "CommandName": "rate"
+    },
+    "cl_predictweapons": {
+      "Description": "Enables weapon prediction.",
+      "Name": "CL Predict Weapons",
+      "DefaultValue": 1,
+      "CurrentValue": 1,
+      "CommandName": "cl_predictweapons"
+    },
+    "cl_lagcompensation": {
+      "Description": "Allows lag compensation.",
+      "Name": "CL Lag Compensation",
+      "DefaultValue": 1,
+      "CurrentValue": 1,
+      "CommandName": "cl_lagcompensation"
+    },
+    "net_client_steamdatagram_enable_override": {
+      "Description": "Toggles Steam Datagram Relay.",
+      "Name": "Net Client Steam Datagram Enable Override",
+      "DefaultValue": 1,
+      "CurrentValue": 1,
+      "CommandName": "net_client_steamdatagram_enable_override"
+    },
+    "net_maxroutable": {
+      "Description": "Sets maximum packet size.",
+      "Name": "Net Max Routable",
+      "DefaultValue": 1200,
+      "CurrentValue": 1200,
+      "CommandName": "net_maxroutable"
+    },
+    "mm_session_search_qos_timeout": {
+      "Description": "Affects matchmaking QoS timeout.",
+      "Name": "MM Session Search QoS Timeout",
+      "DefaultValue": 20,
+      "CurrentValue": 20,
+      "CommandName": "mm_session_search_qos_timeout"
+    },
+    "mm_dedicated_search_maxping": {
+      "Description": "Limits matchmaking server ping.",
+      "Name": "MM Dedicated Search Maxping",
+      "DefaultValue": 25,
+      "CurrentValue": 25,
+      "CommandName": "mm_dedicated_search_maxping"
+    },
+    "mm_csgo_community_search_players_min": {
+      "Description": "Sets minimum players for community search.",
+      "Name": "MM CS:GO Community Search Players Min",
+      "DefaultValue": 3,
+      "CurrentValue": 3,
+      "CommandName": "mm_csgo_community_search_players_min"
+    },
+    "cl_resend": {
+      "Description": "Controls packet resend rate.",
+      "Name": "CL Resend",
+      "DefaultValue": 0.5,
+      "CurrentValue": 0.5,
+      "CommandName": "cl_resend"
+    },
+    "cl_timeout": {
+      "Description": "Sets server response timeout.",
+      "Name": "CL Timeout",
+      "DefaultValue": 30,
+      "CurrentValue": 30,
+      "CommandName": "cl_timeout"
+    },
+    "lobby_default_privacy_bits2": {
+      "Description": "Manages lobby privacy settings.",
+      "Name": "Lobby Default Privacy Bits2",
+      "DefaultValue": 0,
+      "CurrentValue": 0,
+      "CommandName": "lobby_default_privacy_bits2"
+    },
+    "ui_setting_advertiseforhire_auto": {
+      "Description": "Auto-settings for in-game hire advertisement.",
+      "Name": "UI Setting Advertise for Hire Auto",
+      "DefaultValue": 1,
+      "CurrentValue": 1,
+      "CommandName": "ui_setting_advertiseforhire_auto"
+    },
+    "cl_join_advertise": {
+      "Description": "Controls game join advertising.",
+      "Name": "CL Join Advertise",
+      "DefaultValue": 2,
+      "CurrentValue": 2,
+      "CommandName": "cl_join_advertise"
+    },
+    "cl_invites_only_friends": {
+      "Description": "Restricts invites to friends.",
+      "Name": "CL Invites Only Friends",
+      "DefaultValue": 0,
+      "CurrentValue": 0,
+      "CommandName": "cl_invites_only_friends"
+    },
+    "cl_invites_only_mainmenu": {
+      "Description": "Manages invites in main menu.",
+      "Name": "CL Invites Only Mainmenu",
+      "DefaultValue": 0,
+      "CurrentValue": 0,
+      "CommandName": "cl_invites_only_mainmenu"
+    }
+  },
+  "RadarSettings": {
+    "cl_drawhud_force_radar": {
+      "Description": "0 = default | 1 = draw radar even if hud disabled | -1 = force no radar",
+      "Name": "CL DrawHUD Force Radar",
+      "DefaultValue": 0,
+      "CurrentValue": 0,
+      "CommandName": "cl_drawhud_force_radar"
+    },
+    "cl_hud_radar_scale": {
+      "Description": "Changes radar size in HUD.",
+      "Name": "CL HUD Radar Scale",
+      "DefaultValue": 1,
+      "CurrentValue": 1,
+      "CommandName": "cl_hud_radar_scale"
+    },
+    "cl_radar_always_centered": {
+      "Description": "Toggles radar centering.",
+      "Name": "CL Radar Always Centered",
+      "DefaultValue": 0,
+      "CurrentValue": 0,
+      "CommandName": "cl_radar_always_centered"
+    },
+    "cl_radar_icon_scale_min": {
+      "Description": "Adjusts radar icon size.",
+      "Name": "CL Radar Icon Scale Min",
+      "DefaultValue": 0.4,
+      "CurrentValue": 0.4,
+      "CommandName": "cl_radar_icon_scale_min"
+    },
+    "cl_radar_rotate": {
+      "Description": "Allow the radar to rotate or not.",
+      "Name": "CL Radar Rotate",
+      "DefaultValue": true,
+      "CurrentValue": true,
+      "CommandName": "cl_radar_rotate"
+    },
+    "cl_radar_scale": {
+      "Description": "Alters radar zoom level.",
+      "Name": "CL Radar Scale",
+      "DefaultValue": 0.4,
+      "CurrentValue": 0.4,
+      "CommandName": "cl_radar_scale"
+    },
+    "cl_radar_square_with_scoreboard": {
+      "Description": "If set to true, the radar will toggle to square when the scoreboard is visible.",
+      "Name": "CL Radar Square With Scoreboard",
+      "DefaultValue": true,
+      "CurrentValue": true,
+      "CommandName": "cl_radar_square_with_scoreboard"
+    }
+  },
+  "Crosshair": {
+    "cl_crosshair_drawoutline": {
+      "Description": "Draws a black outline around the crosshair for better visibility",
+      "Name": "CL Crosshair Drawoutline",
+      "DefaultValue": true,
+      "CurrentValue": true,
+      "CommandName": "cl_crosshair_drawoutline"
+    },
+    "cl_crosshair_dynamic_maxdist_splitratio": {
+      "Description": "Determines length ratio of inner and outer crosshair pips in style 2.",
+      "Name": "CL Crosshair Dynamic Maxdist Splitratio",
+      "DefaultValue": 0.35,
+      "CurrentValue": 0.35,
+      "CommandName": "cl_crosshair_dynamic_maxdist_splitratio"
+    },
+    "cl_crosshair_dynamic_splitalpha_innermod": {
+      "Description": "Alpha modification for inner crosshair pips after split in style 2.",
+      "Name": "CL Crosshair Dynamic Splitalpha Innermod",
+      "DefaultValue": 1,
+      "CurrentValue": 1,
+      "CommandName": "cl_crosshair_dynamic_splitalpha_innermod"
+    },
+    "cl_crosshair_dynamic_splitalpha_outermod": {
+      "Description": "Alpha modification for outer crosshair pips after split in style 2.",
+      "Name": "CL Crosshair Dynamic Splitalpha Outermod",
+      "DefaultValue": 0.5,
+      "CurrentValue": 0.5,
+      "CommandName": "cl_crosshair_dynamic_splitalpha_outermod"
+    },
+    "cl_crosshair_dynamic_splitdist": {
+      "Description": "Distance for crosshair pips split in style 2.",
+      "Name": "CL Crosshair Dynamic Splitdist",
+      "DefaultValue": 6,
+      "CurrentValue": 6,
+      "CommandName": "cl_crosshair_dynamic_splitdist"
+    },
+    "cl_crosshair_friendly_warning": {
+      "Description": "Toggles crosshair warning for friendly targets.",
+      "Name": "CL Crosshair Friendly Warning",
+      "DefaultValue": 1,
+      "CurrentValue": 1,
+      "CommandName": "cl_crosshair_friendly_warning"
+    },
+    "cl_crosshair_outlinethickness": {
+      "Description": "Sets crosshair outline thickness.",
+      "Name": "CL Crosshair Outlinethickness",
+      "DefaultValue": 1.35827,
+      "CurrentValue": 1.35827,
+      "CommandName": "cl_crosshair_outlinethickness"
+    },
+    "cl_crosshair_recoil": {
+      "Description": "Indicates whether crosshair accounts for recoil.",
+      "Name": "CL Crosshair Recoil",
+      "DefaultValue": true,
+      "CurrentValue": true,
+      "CommandName": "cl_crosshair_recoil"
+    },
+    "cl_crosshair_sniper_show_normal_inaccuracy": {
+      "Description": "Include standing inaccuracy when determining sniper crosshair blur.",
+      "Name": "CL Crosshair Sniper Show Normal Inaccuracy",
+      "DefaultValue": false,
+      "CurrentValue": false,
+      "CommandName": "cl_crosshair_sniper_show_normal_inaccuracy"
+    },
+    "cl_crosshair_sniper_width": {
+      "Description": "If >1, sniper scope cross lines gain extra width.",
+      "Name": "CL Crosshair Sniper Width",
+      "DefaultValue": 1,
+      "CurrentValue": 1,
+      "CommandName": "cl_crosshair_sniper_width"
+    },
+    "cl_crosshair_t": {
+      "Description": "T style crosshair.",
+      "Name": "CL Crosshair T",
+      "DefaultValue": true,
+      "CurrentValue": true,
+      "CommandName": "cl_crosshair_t"
+    },
+    "cl_crosshairalpha": {
+      "Description": "Sets crosshair alpha transparency.",
+      "Name": "CL Crosshair Alpha",
+      "DefaultValue": 255,
+      "CurrentValue": 255,
+      "CommandName": "cl_crosshairalpha"
+    },
+    "cl_crosshaircolor": {
+      "Description": "Set crosshair color.",
+      "Name": "CL Crosshair Color",
+      "DefaultValue": 5,
+      "CurrentValue": 5,
+      "CommandName": "cl_crosshaircolor"
+    },
+    "cl_crosshaircolor_b": {
+      "Description": "Blue component of crosshair color.",
+      "Name": "CL Crosshair Color B",
+      "DefaultValue": 255,
+      "CurrentValue": 255,
+      "CommandName": "cl_crosshaircolor_b"
+    },
+    "cl_crosshaircolor_g": {
+      "Description": "Green component of crosshair color.",
+      "Name": "CL Crosshair Color G",
+      "DefaultValue": 0,
+      "CurrentValue": 0,
+      "CommandName": "cl_crosshaircolor_g"
+    },
+    "cl_crosshaircolor_r": {
+      "Description": "Red component of crosshair color.",
+      "Name": "CL Crosshair Color R",
+      "DefaultValue": 255,
+      "CurrentValue": 255,
+      "CommandName": "cl_crosshaircolor_r"
+    },
+    "cl_crosshairdot": {
+      "Description": "Enables a center dot in the crosshair.",
+      "Name": "CL Crosshair Dot",
+      "DefaultValue": true,
+      "CurrentValue": true,
+      "CommandName": "cl_crosshairdot"
+    },
+    "cl_crosshairgap": {
+      "Description": "Sets the gap size in the crosshair.",
+      "Name": "CL Crosshair Gap",
+      "DefaultValue": 1,
+      "CurrentValue": 1,
+      "CommandName": "cl_crosshairgap"
+    },
+    "cl_crosshairgap_useweaponvalue": {
+      "Description": "If set to 1, the gap will update dynamically based on the equipped weapon.",
+      "Name": "CL Crosshair Gap Useweaponvalue",
+      "DefaultValue": true,
+      "CurrentValue": true,
+      "CommandName": "cl_crosshairgap_useweaponvalue"
+    },
+    "cl_crosshairsize": {
+      "Description": "Sets the size of the crosshair.",
+      "Name": "CL Crosshair Size",
+      "DefaultValue": 4.41819,
+      "CurrentValue": 4.41819,
+      "CommandName": "cl_crosshairsize"
+    },
+    "cl_crosshairstyle": {
+      "Description": "Sets the style of the crosshair.",
+      "Name": "CL Crosshair Style",
+      "DefaultValue": 2,
+      "CurrentValue": 2,
+      "CommandName": "cl_crosshairstyle"
+    },
+    "cl_crosshairthickness": {
+      "Description": "Sets the thickness of the crosshair.",
+      "Name": "CL Crosshair Thickness",
+      "DefaultValue": 0.898255,
+      "CurrentValue": 0.898255,
+      "CommandName": "cl_crosshairthickness"
+    },
+    "cl_crosshairusealpha": {
+      "Description": "Enables crosshair transparency settings.",
+      "Name": "CL Crosshair Use Alpha",
+      "DefaultValue": true,
+      "CurrentValue": true,
+      "CommandName": "cl_crosshairusealpha"
+    },
+    "cl_observed_bot_crosshair": {
+      "Description": "Control the crosshair shown when observing a bot.",
+      "Name": "CL Observed Bot Crosshair",
+      "DefaultValue": 0,
+      "CurrentValue": 0,
+      "CommandName": "cl_observed_bot_crosshair"
+    },
+    "cl_draw_only_deathnotices": {
+      "Description": "For drawing only the crosshair and death notices (used for moviemaking).",
+      "Name": "CL Draw Only Deathnotices",
+      "DefaultValue": false,
+      "CurrentValue": false,
+      "CommandName": "cl_draw_only_deathnotices"
+    },
+    "cl_fixedcrosshairgap": {
+      "Description": "For crosshair style 1: Size of the gap between the pips.",
+      "Name": "CL Fixed Crosshair Gap",
+      "DefaultValue": 3,
+      "CurrentValue": 3,
+      "CommandName": "cl_fixedcrosshairgap"
+    },
+    "cl_ping_fade_deadzone": {
+      "Description": "Distance from the crosshair over which the ping is completely invisible.",
+      "Name": "CL Ping Fade Deadzone",
+      "DefaultValue": 60,
+      "CurrentValue": 60,
+      "CommandName": "cl_ping_fade_deadzone"
+    },
+    "cl_ping_fade_distance": {
+      "Description": "Distance from the crosshair over which the ping fades.",
+      "Name": "CL Ping Fade Distance",
+      "DefaultValue": 300,
+      "CurrentValue": 300,
+      "CommandName": "cl_ping_fade_distance"
+    },
+    "cl_show_observer_crosshair": {
+      "Description": "Show the crosshair of the player being observed.",
+      "Name": "CL Show Observer Crosshair",
+      "DefaultValue": 1,
+      "CurrentValue": 1,
+      "CommandName": "cl_show_observer_crosshair"
+    },
+    "crosshair": {
+      "Description": "Enables or disables the crosshair.",
+      "Name": "Crosshair",
+      "DefaultValue": true,
+      "CurrentValue": true,
+      "CommandName": "crosshair"
+    }
+  }
+}
