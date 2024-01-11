@@ -384,7 +384,7 @@
       "Name": "Forward",
       "DefaultValue": "w",
       "CurrentValue": "w",
-      "CommandName": "forward"
+      "CommandName": "+forward"
     },
     "back": {
       "Prefix": "bind",
@@ -392,7 +392,7 @@
       "Name": "Back",
       "DefaultValue": "s",
       "CurrentValue": "s",
-      "CommandName": "back"
+      "CommandName": "+back"
     },
     "left": {
       "Prefix": "bind",
@@ -400,7 +400,7 @@
       "Name": "Left",
       "DefaultValue": "a",
       "CurrentValue": "a",
-      "CommandName": "left"
+      "CommandName": "+left"
     },
     "right": {
       "Prefix": "bind",
@@ -408,7 +408,7 @@
       "Name": "Right",
       "DefaultValue": "d",
       "CurrentValue": "d",
-      "CommandName": "right"
+      "CommandName": "+right"
     },
     "sprint": {
       "Prefix": "bind",
@@ -416,7 +416,7 @@
       "Name": "Sprint",
       "DefaultValue": "shift",
       "CurrentValue": "shift",
-      "CommandName": "sprint"
+      "CommandName": "+sprint"
     },
     "duck": {
       "Prefix": "bind",
@@ -424,7 +424,7 @@
       "Name": "Duck",
       "DefaultValue": "ctrl",
       "CurrentValue": "ctrl",
-      "CommandName": "duck"
+      "CommandName": "+duck"
     },
     "jump": {
       "Prefix": "bind",
@@ -432,7 +432,7 @@
       "Name": "Jump",
       "DefaultValue": "space",
       "CurrentValue": "space",
-      "CommandName": "jump"
+      "CommandName": "+jump"
     },
     "use": {
       "Prefix": "bind",
@@ -448,7 +448,7 @@
       "Name": "Attack",
       "DefaultValue": "mouse1",
       "CurrentValue": "mouse1",
-      "CommandName": "attack"
+      "CommandName": "+attack"
     },
     "attack2": {
       "Prefix": "bind",
@@ -456,7 +456,7 @@
       "Name": "Attack2",
       "DefaultValue": "mouse2",
       "CurrentValue": "mouse2",
-      "CommandName": "attack2"
+      "CommandName": "+attack2"
     },
     "reload": {
       "Prefix": "bind",
@@ -464,7 +464,7 @@
       "Name": "Reload",
       "DefaultValue": "r",
       "CurrentValue": "r",
-      "CommandName": "reload"
+      "CommandName": "+reload"
     },
     "quickinv": {
       "Prefix": "bind",
@@ -472,7 +472,7 @@
       "Name": "Quick Inventory",
       "DefaultValue": "<unbound>",
       "CurrentValue": "<unbound>",
-      "CommandName": "quickinv"
+      "CommandName": "+quickinv"
     },
     "drop": {
       "Prefix": "bind",
