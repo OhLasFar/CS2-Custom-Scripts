@@ -488,7 +488,7 @@
       "Name": "Look at Weapon",
       "DefaultValue": "f",
       "CurrentValue": "f",
-      "CommandName": "lookatweapon"
+      "CommandName": "+lookatweapon"
     },
     "buymenu": {
       "Prefix": "bind",
@@ -624,7 +624,7 @@
       "Name": "Spray Menu",
       "DefaultValue": "<unbound>",
       "CurrentValue": "<unbound>",
-      "CommandName": "spray_menu"
+      "CommandName": "+spray_menu"
     },
     "showscores": {
       "Prefix": "bind",
@@ -632,7 +632,7 @@
       "Name": "Show Scores",
       "DefaultValue": "tab",
       "CurrentValue": "tab",
-      "CommandName": "showscores"
+      "CommandName": "+showscores"
     },
     "team_equipment": {
       "Prefix": "bind",
@@ -640,7 +640,7 @@
       "Name": "Show Team Equipment",
       "DefaultValue": "<unbound>",
       "CurrentValue": "<unbound>",
-      "CommandName": "team_equipment"
+      "CommandName": "+cl_show_team_equipment"
     },
     "callvote": {
       "Prefix": "bind",
@@ -728,7 +728,7 @@
       "Name": "Use Mic",
       "DefaultValue": "t",
       "CurrentValue": "t",
-      "CommandName": "voicerecord"
+      "CommandName": "+voicerecord"
     },
     "clutch_mode_toggle": {
       "Prefix": "bind",
@@ -744,7 +744,7 @@
       "Name": "Chat Wheel 1",
       "DefaultValue": "c",
       "CurrentValue": "c",
-      "CommandName": "radialradio"
+      "CommandName": "+radialradio"
     },
     "radialradio2": {
       "Prefix": "bind",
@@ -752,7 +752,7 @@
       "Name": "Chat Wheel 2",
       "DefaultValue": "v",
       "CurrentValue": "v",
-      "CommandName": "radialradio2"
+      "CommandName": "+radialradio2"
     },
     "radialradio3": {
       "Prefix": "bind",
@@ -760,7 +760,7 @@
       "Name": "Chat Wheel 3",
       "DefaultValue": "<unbound>",
       "CurrentValue": "<unbound>",
-      "CommandName": "radialradio3"
+      "CommandName": "+radialradio3"
     }
   }
 }
