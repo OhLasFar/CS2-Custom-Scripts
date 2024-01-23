@@ -1,0 +1,109 @@
+{
+  "NetworkSettings": {
+    "rate": {
+      "Description": "Sets data receive rate limit.",
+      "Name": "Rate",
+      "DefaultValue": 1000000,
+      "CurrentValue": 1000000,
+      "CommandName": "rate"
+    },
+    "cl_predictweapons": {
+      "Description": "Enables weapon prediction.",
+      "Name": "CL Predict Weapons",
+      "DefaultValue": 1,
+      "CurrentValue": 1,
+      "CommandName": "cl_predictweapons"
+    },
+    "cl_lagcompensation": {
+      "Description": "Allows lag compensation.",
+      "Name": "CL Lag Compensation",
+      "DefaultValue": 1,
+      "CurrentValue": 1,
+      "CommandName": "cl_lagcompensation"
+    },
+    "net_client_steamdatagram_enable_override": {
+      "Description": "Toggles Steam Datagram Relay.",
+      "Name": "Net Client Steam Datagram Enable Override",
+      "DefaultValue": 1,
+      "CurrentValue": 1,
+      "CommandName": "net_client_steamdatagram_enable_override"
+    },
+    "net_maxroutable": {
+      "Description": "Sets maximum packet size.",
+      "Name": "Net Max Routable",
+      "DefaultValue": 1200,
+      "CurrentValue": 1200,
+      "CommandName": "net_maxroutable"
+    },
+    "mm_session_search_qos_timeout": {
+      "Description": "Affects matchmaking QoS timeout.",
+      "Name": "MM Session Search QoS Timeout",
+      "DefaultValue": 20,
+      "CurrentValue": 20,
+      "CommandName": "mm_session_search_qos_timeout"
+    },
+    "mm_dedicated_search_maxping": {
+      "Description": "Limits matchmaking server ping.",
+      "Name": "MM Dedicated Search Maxping",
+      "DefaultValue": 25,
+      "CurrentValue": 25,
+      "CommandName": "mm_dedicated_search_maxping"
+    },
+    "mm_csgo_community_search_players_min": {
+      "Description": "Sets minimum players for community search.",
+      "Name": "MM CS:GO Community Search Players Min",
+      "DefaultValue": 3,
+      "CurrentValue": 3,
+      "CommandName": "mm_csgo_community_search_players_min"
+    },
+    "cl_resend": {
+      "Description": "Controls packet resend rate.",
+      "Name": "CL Resend",
+      "DefaultValue": 0.5,
+      "CurrentValue": 0.5,
+      "CommandName": "cl_resend"
+    },
+    "cl_timeout": {
+      "Description": "Sets server response timeout.",
+      "Name": "CL Timeout",
+      "DefaultValue": 30,
+      "CurrentValue": 30,
+      "CommandName": "cl_timeout"
+    },
+    "lobby_default_privacy_bits2": {
+      "Description": "Manages lobby privacy settings.",
+      "Name": "Lobby Default Privacy Bits2",
+      "DefaultValue": 0,
+      "CurrentValue": 0,
+      "CommandName": "lobby_default_privacy_bits2"
+    },
+    "ui_setting_advertiseforhire_auto": {
+      "Description": "Auto-settings for in-game hire advertisement.",
+      "Name": "UI Setting Advertise for Hire Auto",
+      "DefaultValue": 1,
+      "CurrentValue": 1,
+      "CommandName": "ui_setting_advertiseforhire_auto"
+    },
+    "cl_join_advertise": {
+      "Description": "Controls game join advertising.",
+      "Name": "CL Join Advertise",
+      "DefaultValue": 2,
+      "CurrentValue": 2,
+      "CommandName": "cl_join_advertise"
+    },
+    "cl_invites_only_friends": {
+      "Description": "Restricts invites to friends.",
+      "Name": "CL Invites Only Friends",
+      "DefaultValue": 0,
+      "CurrentValue": 0,
+      "CommandName": "cl_invites_only_friends"
+    },
+    "cl_invites_only_mainmenu": {
+      "Description": "Manages invites in main menu.",
+      "Name": "CL Invites Only Mainmenu",
+      "DefaultValue": 0,
+      "CurrentValue": 0,
+      "CommandName": "cl_invites_only_mainmenu"
+    }
+  }
+}
